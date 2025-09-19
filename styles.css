@@ -1,0 +1,66 @@
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.top{
+    background-color: rgba(252, 199, 207, 0.477);
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#input{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(252, 199, 207, 0.477);
+}
+.btn{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(252, 199, 207, 0.477);
+    background-color: white;
+}    
+#output{
+   width: 80%;
+   margin: 0 auto;
+   max-height: 300px;   
+}
+#output div{
+    border: 1px solid black;
+}
+.line{
+    text-decoration: line-through;
+}
+#output .text{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* const list = document.createElement('div')
+        output.appendChild(list)
+        list.classList.add("list")
+
+        const text = document.createElement('div')
+        list.appendChild(text)
+        text.classList.add("text")
+        if (arr[i].completed) {
+            text.classList.add("line");
+        }
+        text.textContent = arr[i].text
+
+        const btnWrap = document.createElement('div')
+        list.appendChild(btnWrap)
+        btnWrap.classList.add("btnWrap")
+
+        const done = document.createElement('button')
+        btnWrap.appendChild(done)
+        done.classList.add("done")
+        done.setAttribute("onclick", `done('${i}')`)
+
+        const del = document.createElement('button')
+        btnWrap.appendChild(del)
+        del.classList.add("del")
+        del.setAttribute("onclick", `del('${i}')`)
+    } */
